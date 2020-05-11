@@ -1,0 +1,31 @@
+DANRG75 Times Tables Test for the BBC Micro
+-------------------------------------------
+
+A simple spelling test for the BBC Micro, it just answers questions, using some random colours and repeats the question if the answer is input incorrectly. 
+
+There is no time limit or end to the number of questions. This can be amusing or frustrating depending on the user...
+
+FILES:
+------
+
+README - this file
+times-tables-test - the BBC Basic source code
+times.ssd - A BBC disk image containing the Basic programme and a !BOOT file
+
+times.ssd should boot normally with shift-break else once the disk is loaded into the BBC, type:
+
+CH."TEST"
+
+TO-DO:
+------
+
+While the programme does work, it could do with some improvement:
+
+Select times table - keep one factor consistent and the other random based on input.
+
+Limit test -  ask 12 or 24 questions, give a total of right / wrong.
+
+Record time - use time data to indicate performance? 
+
+
+- DANRG75
